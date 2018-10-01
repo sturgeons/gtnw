@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:text="关闭了的问题审核单"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.bin.david.form.core.SmartTable
+        android:layout_centerInParent="true"
+        android:id="@+id/st_closed_observations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_lpa_closed_dashboard_refresh"
+            android:text="REFRESH"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp" />
+        <Button
+            android:id="@+id/btn_lpa_closed_dashboard_pre_page"
+            android:text="PRE"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp" />
+        <Button
+            android:id="@+id/btn_lpa_closed_dashboard_page_view"
+            android:enabled="false"
+            android:text="1/4"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp" />
+        <Button
+            android:id="@+id/btn_lpa_closed_dashboard_next_page"
+            android:text="NEXT"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp" />
+    </LinearLayout>
+</RelativeLayout>

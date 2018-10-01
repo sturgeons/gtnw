@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="4">
+
+    <Button
+        android:id="@+id/bt_lpa_dashboarad"
+        android:layout_height="88dp"
+        android:text="@string/lpa_dashboard" />
+
+    <Button
+        android:id="@+id/bt_tcp"
+        android:layout_height="88dp"
+        android:text="烘房温度看板" />
+
+    <Button
+        android:id="@+id/bt_system_info"
+        android:layout_height="88dp"
+        android:text="系统信息" />
+
+    <Button
+        android:id="@+id/bt_huaxuepin_temperature"
+        android:layout_height="88dp"
+        android:text="化学品温度看板" />
+
+    <Button
+        android:id="@+id/bt_bugly"
+        android:layout_height="88dp"
+        android:text="Bugly" />
+
+    <Button
+        android:id="@+id/bt_piziku_temperature"
+        android:layout_height="88dp"
+        android:text="皮子库温度看板" />
+
+</GridLayout>
